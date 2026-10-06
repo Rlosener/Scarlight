@@ -41,7 +41,7 @@ bash Scripts/pre_release_check.sh
 
 ---
 
-## 🎨 Tasarım Sistemi
+## 🎨 Design System
 
 ### Renk Paleti
 
@@ -93,7 +93,7 @@ Haptic Feedback   → UIImpactFeedbackGenerator
 
 ---
 
-## 🏗️ Mimari & Teknik
+## 🏗️ Architecture & Design Decisions
 
 ### Dosya Yapısı (31 Swift Dosyası)
 
