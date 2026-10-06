@@ -1,0 +1,64 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/QuickAddCardView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hızlı Kart Ekle",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "Yeni soru veya görev ekle. Kaydedince hemen oyunda kullanılır.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "İpuçları: {partner}, {partnere}, {partneri} · 3 kişide {diğer oyuncu}",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "Deste",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Seviye",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kapat",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 95
+        }
+      }
+    ]
+  },
+  "version": 1
+}

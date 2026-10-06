@@ -1,0 +1,56 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/WheelView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "ÇARK",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Herkes 3 başarılı tur tamamlayana kadar devam eder.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 155
+        }
+      },
+      {
+        "comment": "",
+        "key": "Seçilen:",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "Çark dönüyor...",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "İlerleme:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld/%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 146
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,56 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/GameCompleteView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Oturum Tamamlandı",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tüm fazlar oynandı — harika bir gece.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "OYUNCULAR",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld tur",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 89
+        }
+      },
+      {
+        "comment": "",
+        "key": "·",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 92
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld joker",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 94
+        }
+      }
+    ]
+  },
+  "version": 1
+}

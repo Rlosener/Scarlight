@@ -1,0 +1,200 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/GameView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld/%lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 235
+        }
+      },
+      {
+        "comment": "",
+        "key": "Süre: %lld sn",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 330
+        }
+      },
+      {
+        "comment": "",
+        "key": "İçerik",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 302
+        }
+      },
+      {
+        "comment": "",
+        "key": "Partner onayı bekleniyor…",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 308
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pozisyon · %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 359
+        }
+      },
+      {
+        "comment": "",
+        "key": "Süre: %lld sn",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 377
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@:",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 410
+        }
+      },
+      {
+        "comment": "",
+        "key": "Diğer: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 455
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kim",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 431
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kime",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 444
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kartı Kabul Etmiyorsun",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 488
+        }
+      },
+      {
+        "comment": "",
+        "key": "Nasıl devam etmek istiyorsun?",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 492
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hafif Alternatif",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 502
+        }
+      },
+      {
+        "comment": "",
+        "key": "Daha yumuşak bir görev veya soru",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 504
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ceza Çek",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 517
+        }
+      },
+      {
+        "comment": "",
+        "key": "Rastgele red cezası — her seferinde farklı",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 519
+        }
+      },
+      {
+        "comment": "",
+        "key": "CEZA KARTI",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 549
+        }
+      },
+      {
+        "comment": "",
+        "key": "Süre: %lld sn",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 581
+        }
+      },
+      {
+        "comment": "",
+        "key": "İçerik",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 563
+        }
+      },
+      {
+        "comment": "",
+        "key": "+30 saniye",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 642
+        }
+      },
+      {
+        "comment": "",
+        "key": "Joker",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 656
+        }
+      },
+      {
+        "comment": "",
+        "key": "Oyun Durdu",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 713
+        }
+      },
+      {
+        "comment": "",
+        "key": "Partner Onayı",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 740
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@, bu görevi kabul ediyor musun?",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 744
+        }
+      }
+    ]
+  },
+  "version": 1
+}

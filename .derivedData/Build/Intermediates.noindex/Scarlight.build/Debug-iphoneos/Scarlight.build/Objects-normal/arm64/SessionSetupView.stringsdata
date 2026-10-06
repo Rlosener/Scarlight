@@ -1,0 +1,96 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/SessionSetupView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "OYUN YOĞUNLUĞU",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "Yoğunluk",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 161
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kart yoğunluğu üst sınırı",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 173
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 177
+        }
+      },
+      {
+        "comment": "",
+        "key": "İÇERİK SEVİYESİ",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 197
+        }
+      },
+      {
+        "comment": "",
+        "key": "KART DESTELERİ",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 235
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld kart yüklü",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 249
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@: %lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 254
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld/%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 309
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tümü",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 313
+        }
+      },
+      {
+        "comment": "",
+        "key": "Temizle",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 320
+        }
+      }
+    ]
+  },
+  "version": 1
+}

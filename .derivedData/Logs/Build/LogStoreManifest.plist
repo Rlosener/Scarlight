@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>12</integer>
+	<key>logs</key>
+	<dict>
+		<key>446437E6-85AD-4535-B5C4-2298E518E71C</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>446437E6-85AD-4535-B5C4-2298E518E71C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Scarlight project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Scarlight</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Scarlight for testing with scheme Scarlight</string>
+			<key>timeStartedRecording</key>
+			<real>804695972.70753896</real>
+			<key>timeStoppedRecording</key>
+			<real>804695987.727566</real>
+			<key>title</key>
+			<string>Building project Scarlight for testing with scheme Scarlight</string>
+			<key>uniqueIdentifier</key>
+			<string>446437E6-85AD-4535-B5C4-2298E518E71C</string>
+		</dict>
+		<key>C2E68B2F-0B8F-40D7-A5E3-1DEC634A1275</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C2E68B2F-0B8F-40D7-A5E3-1DEC634A1275.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Scarlight project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Scarlight</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Scarlight with scheme Scarlight and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>804696371.04594898</real>
+			<key>timeStoppedRecording</key>
+			<real>804696375.04797006</real>
+			<key>title</key>
+			<string>Building project Scarlight with scheme Scarlight and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>C2E68B2F-0B8F-40D7-A5E3-1DEC634A1275</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+{
+  "" : {
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/ScarlightTests-primary.dia",
+    "emit-module-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/ScarlightTests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/ScarlightTests-primary-emit-module.dia",
+    "pch" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/ScarlightTests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/ScarlightTests-primary.swiftdeps"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/ScarlightTests/CardSelectionRuleTests.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/CardSelectionRuleTests.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/CardSelectionRuleTests.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/CardSelectionRuleTests.dia",
+    "index-unit-output-path" : "/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/CardSelectionRuleTests.o",
+    "llvm-bc" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/CardSelectionRuleTests.bc",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/CardSelectionRuleTests.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/CardSelectionRuleTests.swiftdeps",
+    "swiftmodule" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/CardSelectionRuleTests~partial.swiftmodule"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/ScarlightTests/FeatureExtensionTests.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/FeatureExtensionTests.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/FeatureExtensionTests.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/FeatureExtensionTests.dia",
+    "index-unit-output-path" : "/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/FeatureExtensionTests.o",
+    "llvm-bc" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/FeatureExtensionTests.bc",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/FeatureExtensionTests.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/FeatureExtensionTests.swiftdeps",
+    "swiftmodule" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/FeatureExtensionTests~partial.swiftmodule"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/ScarlightTests/SessionRestoreTests.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/SessionRestoreTests.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/SessionRestoreTests.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/SessionRestoreTests.dia",
+    "index-unit-output-path" : "/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/SessionRestoreTests.o",
+    "llvm-bc" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/SessionRestoreTests.bc",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/SessionRestoreTests.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/SessionRestoreTests.swiftdeps",
+    "swiftmodule" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/ScarlightTests.build/Objects-normal/arm64/SessionRestoreTests~partial.swiftmodule"
+  }
+}

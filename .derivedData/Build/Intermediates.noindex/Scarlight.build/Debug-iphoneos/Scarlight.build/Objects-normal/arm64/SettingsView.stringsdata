@@ -1,0 +1,80 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/SettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Deste Güncellendi",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 150
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ayarlar",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tamam",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 154
+        }
+      },
+      {
+        "comment": "",
+        "key": "Deste Özeti",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 270
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld kart",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 274
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 285
+        }
+      },
+      {
+        "comment": "",
+        "key": "Yerel Yedek",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 312
+        }
+      },
+      {
+        "comment": "",
+        "key": "Yedek Al",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 328
+        }
+      },
+      {
+        "comment": "",
+        "key": "Paylaş",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 342
+        }
+      }
+    ]
+  },
+  "version": 1
+}

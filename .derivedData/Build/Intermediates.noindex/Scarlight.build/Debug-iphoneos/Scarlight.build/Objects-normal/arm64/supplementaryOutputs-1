@@ -1,0 +1,58 @@
+{
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/App/ScarlightApp.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/ScarlightApp.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/ScarlightApp.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/ScarlightApp.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/ScarlightApp.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/ScarlightApp.swiftdeps"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Design/AppColors.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppColors.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppColors.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppColors.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppColors.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppColors.swiftdeps"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Design/AppComponents.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppComponents.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppComponents.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppComponents.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppComponents.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppComponents.swiftdeps"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Design/AppConstants.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppConstants.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppConstants.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppConstants.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppConstants.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppConstants.swiftdeps"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Design/AppTypography.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppTypography.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppTypography.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppTypography.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppTypography.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppTypography.swiftdeps"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Extensions/Notification+Cards.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/Notification+Cards.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/Notification+Cards.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/Notification+Cards.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/Notification+Cards.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/Notification+Cards.swiftdeps"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Models/AppRoute.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppRoute.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppRoute.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppRoute.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppRoute.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/AppRoute.swiftdeps"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Models/DiceTurnState.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/DiceTurnState.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/DiceTurnState.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/DiceTurnState.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/DiceTurnState.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphoneos/Scarlight.build/Objects-normal/arm64/DiceTurnState.swiftdeps"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/ViewModels/SettingsViewModel.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/SettingsViewModel.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/SettingsViewModel.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/SettingsViewModel.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/SettingsViewModel.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/SettingsViewModel.swiftdeps"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/CardEditorView.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/CardEditorView.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/CardEditorView.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/CardEditorView.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/CardEditorView.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/CardEditorView.swiftdeps"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/CustomPropsView.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/CustomPropsView.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/CustomPropsView.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/CustomPropsView.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/CustomPropsView.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/CustomPropsView.swiftdeps"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/DiceView.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/DiceView.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/DiceView.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/DiceView.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/DiceView.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/DiceView.swiftdeps"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/GameCompleteView.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/GameCompleteView.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/GameCompleteView.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/GameCompleteView.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/GameCompleteView.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/GameCompleteView.swiftdeps"
+  },
+  "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/GameHistoryView.swift" : {
+    "const-values" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/GameHistoryView.swiftconstvalues",
+    "dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/GameHistoryView.d",
+    "diagnostics" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/GameHistoryView.dia",
+    "object" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/GameHistoryView.o",
+    "swift-dependencies" : "/Users/efecanakbulut/Desktop/Projeler/Scarlight/.derivedData/Build/Intermediates.noindex/Scarlight.build/Debug-iphonesimulator/Scarlight.build/Objects-normal/arm64/GameHistoryView.swiftdeps"
+  }
+}

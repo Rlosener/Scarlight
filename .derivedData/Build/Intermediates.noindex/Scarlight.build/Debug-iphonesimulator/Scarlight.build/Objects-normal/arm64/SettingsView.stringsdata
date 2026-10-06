@@ -1,0 +1,136 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/SettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Deste Güncellendi",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 199
+        }
+      },
+      {
+        "comment": "",
+        "key": "Veri İşlemi",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 207
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ayarlar",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tamam",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 203
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tamam",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 211
+        }
+      },
+      {
+        "comment": "",
+        "key": "Deste Özeti",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 373
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld kart",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 377
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 401
+        }
+      },
+      {
+        "comment": "",
+        "key": "Yerel Yedek",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 431
+        }
+      },
+      {
+        "comment": "",
+        "key": "Yedek Al",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 447
+        }
+      },
+      {
+        "comment": "",
+        "key": "Paylaş",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 461
+        }
+      },
+      {
+        "comment": "",
+        "key": "Son İçe Aktarma",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 487
+        }
+      },
+      {
+        "comment": "",
+        "key": "v%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 491
+        }
+      },
+      {
+        "comment": "",
+        "key": "• %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 503
+        }
+      },
+      {
+        "comment": "",
+        "key": "Varsayılan süreler (sn)",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 598
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 620
+        }
+      }
+    ]
+  },
+  "version": 1
+}

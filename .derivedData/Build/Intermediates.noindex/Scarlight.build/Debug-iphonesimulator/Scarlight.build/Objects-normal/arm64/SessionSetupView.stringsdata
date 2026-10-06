@@ -1,0 +1,400 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/SessionSetupView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Şablon Kaydet",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 226
+        }
+      },
+      {
+        "comment": "",
+        "key": "Şablon adı",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 227
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kaydet",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 228
+        }
+      },
+      {
+        "comment": "",
+        "key": "İptal",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 234
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mevcut eşya, deste ve faz ayarlarını şablon olarak sakla.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 236
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mevcut ayarı şablon olarak kaydet",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 263
+        }
+      },
+      {
+        "comment": "",
+        "key": "HAZIR OYUN KURULUMLARI",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 244
+        }
+      },
+      {
+        "comment": "",
+        "key": "Bir kurulum seç; istersen kopyasını alıp kendi presetin yap.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 248
+        }
+      },
+      {
+        "comment": "",
+        "key": "Şablonu kopyala",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 317
+        }
+      },
+      {
+        "comment": "",
+        "key": "Şablonu sil",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 329
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kopya",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 312
+        }
+      },
+      {
+        "comment": "",
+        "key": "OYUN FAZLARI",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 344
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kapattığın fazlar bu turda atlanır.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 349
+        }
+      },
+      {
+        "comment": "",
+        "key": "KULLANILABİLİR KARTLAR",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 385
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld kart bu ayarlarla oynanabilir",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 390
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@: %lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 397
+        }
+      },
+      {
+        "comment": "",
+        "key": "BAR TEMPO",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 456
+        }
+      },
+      {
+        "comment": "",
+        "key": "OYUN YOĞUNLUĞU",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 456
+        }
+      },
+      {
+        "comment": "",
+        "key": "Yoğunluk",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 461
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kart yoğunluğu üst sınırı",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 474
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 478
+        }
+      },
+      {
+        "comment": "",
+        "key": "AKILLI KURULUM",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 498
+        }
+      },
+      {
+        "comment": "",
+        "key": "Öneriyi uygula",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 519
+        }
+      },
+      {
+        "comment": "",
+        "key": "Soru ağırlıklı",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 532
+        }
+      },
+      {
+        "comment": "",
+        "key": "SINIRLAR",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 599
+        }
+      },
+      {
+        "comment": "",
+        "key": "Bu oyun için sert filtreler aktif.",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 603
+        }
+      },
+      {
+        "comment": "",
+        "key": "İstersen konfor sınırlarını önceden kilitle.",
+        "location": {
+          "startingColumn": 104,
+          "startingLine": 603
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 638
+        }
+      },
+      {
+        "comment": "",
+        "key": "Maksimum yoğunluk",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 629
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kart yoğunluğu %lld üst sınırında kalır.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 632
+        }
+      },
+      {
+        "comment": "",
+        "key": "İÇERİK SEVİYESİ",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 744
+        }
+      },
+      {
+        "comment": "",
+        "key": "KART DESTELERİ",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 782
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld kart yüklü",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 794
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@: %lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 803
+        }
+      },
+      {
+        "comment": "",
+        "key": "EŞYA ASİSTANI",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 828
+        }
+      },
+      {
+        "comment": "",
+        "key": "Önerilenleri seç",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 849
+        }
+      },
+      {
+        "comment": "",
+        "key": "Eşya görevlerini aç",
+        "location": {
+          "startingColumn": 80,
+          "startingLine": 849
+        }
+      },
+      {
+        "comment": "",
+        "key": "Propsuz devam",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 864
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld/%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 911
+        }
+      },
+      {
+        "comment": "",
+        "key": "(%lld)",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 945
+        }
+      },
+      {
+        "comment": "",
+        "key": "EŞYALAR",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 992
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld/%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1026
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tümünü seç",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1032
+        }
+      },
+      {
+        "comment": "",
+        "key": "Temizle",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1040
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld/%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1072
+        }
+      },
+      {
+        "comment": "",
+        "key": "TEKRARLAR",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 1195
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sorulan / çıkan soruları sıfırla",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1202
+        }
+      },
+      {
+        "comment": "",
+        "key": "Açık: yeni oyunda tekrarlar daha erken görülebilir.",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 1206
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kapalı: tekrar eden soruların önüne geçmek için geçmiş korunur.",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 1207
+        }
+      }
+    ]
+  },
+  "version": 1
+}

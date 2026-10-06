@@ -1,0 +1,16 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/OnboardingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Atla",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 60
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,48 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Scarlight",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kayıtlı oturumu sil",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kaldığın Oyuna Devam Et",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 164
+        }
+      },
+      {
+        "comment": "",
+        "key": "Oyna",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 230
+        }
+      },
+      {
+        "comment": "",
+        "key": "Aynı Kurulumla Yeniden Başlat",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 276
+        }
+      }
+    ]
+  },
+  "version": 1
+}

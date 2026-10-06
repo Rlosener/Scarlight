@@ -1,0 +1,16 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/PlayAtmosphereSelectionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Nasıl oynamak istiyorsunuz?",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 26
+        }
+      }
+    ]
+  },
+  "version": 1
+}

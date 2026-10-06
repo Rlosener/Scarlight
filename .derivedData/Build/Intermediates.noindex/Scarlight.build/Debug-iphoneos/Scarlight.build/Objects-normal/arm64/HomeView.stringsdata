@@ -1,0 +1,32 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Scarlight",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "Timed. Bold. Unpredictable.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 96
+        }
+      },
+      {
+        "comment": "",
+        "key": "Oyna",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 151
+        }
+      }
+    ]
+  },
+  "version": 1
+}

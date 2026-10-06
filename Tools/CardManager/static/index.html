@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scarlight — Soru Yönetimi</title>
+  <style>
+    :root {
+      --bg: #100c0f;
+      --panel: #1a1418;
+      --elevated: #261e24;
+      --border: #3d2f38;
+      --accent: #e02b3f;
+      --accent-soft: #f2a6b3;
+      --text: #faf6f8;
+      --muted: #a8949e;
+      --ok: #3d9a6a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.45;
+    }
+    header {
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel);
+    }
+    header h1 { margin: 0 0 4px; font-size: 1.2rem; }
+    header p { margin: 0; color: var(--muted); font-size: 0.85rem; }
+    .top-row {
+      display: flex;
+      gap: 10px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    #search {
+      flex: 1;
+      min-width: 180px;
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--elevated);
+      color: var(--text);
+    }
+    .btn {
+      padding: 10px 16px;
+      border-radius: 10px;
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+      background: var(--accent);
+      color: #fff;
+    }
+    .btn.ghost {
+      background: var(--elevated);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn.danger { background: #7a1f2e; }
+    .tabs {
+      display: flex;
+      gap: 6px;
+      padding: 10px 20px;
+      overflow-x: auto;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel);
+    }
+    .tab {
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      white-space: nowrap;
+      font-size: 0.88rem;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active {
+      background: var(--elevated);
+      border-color: var(--border);
+      color: var(--accent-soft);
+    }
+    .player-tabs {
+      border-bottom: 1px solid var(--border);
+      background: var(--bg);
+    }
+    .player-tabs .tab { font-size: 0.82rem; }
+    main {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      height: calc(100vh - 175px);
+    }
+    @media (max-width: 860px) {
+      main { grid-template-columns: 1fr; height: auto; }
+      .list { max-height: 38vh; }
+    }
+    .list {
+      overflow-y: auto;
+      border-right: 1px solid var(--border);
+    }
+    .item {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+    }
+    .item:hover, .item.on { background: var(--elevated); }
+    .item.on { border-left: 3px solid var(--accent); }
+    .item .tag {
+      font-size: 0.72rem;
+      color: var(--accent-soft);
+      margin-bottom: 4px;
+    }
+    .item .txt {
+      font-size: 0.9rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .editor {
+      overflow-y: auto;
+      padding: 20px 24px 48px;
+    }
+    .empty { color: var(--muted); text-align: center; padding: 48px 20px; }
+    .section {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 18px;
+      margin-bottom: 14px;
+    }
+    .section h2 {
+      margin: 0 0 12px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+    label {
+      display: block;
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    textarea, select, input[type="number"], input[type="text"] {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--elevated);
+      color: var(--text);
+      font: inherit;
+    }
+    textarea { min-height: 100px; resize: vertical; }
+    .row { display: flex; gap: 8px; flex-wrap: wrap; }
+    .chip {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--elevated);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 0.82rem;
+    }
+    .chip.on { border-color: var(--accent); color: var(--accent-soft); }
+    .chip.insert { font-family: ui-monospace, monospace; font-size: 0.78rem; }
+    .preview-box {
+      margin-top: 10px;
+      padding: 12px;
+      border-radius: 10px;
+      background: var(--bg);
+      border: 1px dashed var(--border);
+      font-size: 0.92rem;
+    }
+    .preview-box small {
+      display: block;
+      color: var(--muted);
+      margin-bottom: 6px;
+      font-size: 0.75rem;
+    }
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+    details {
+      margin-top: 12px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 0 14px;
+      background: var(--panel);
+    }
+    details summary {
+      cursor: pointer;
+      padding: 12px 0;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding-bottom: 14px;
+    }
+    .hint {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+    .toast {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--elevated);
+      border: 1px solid var(--border);
+      padding: 12px 20px;
+      border-radius: 12px;
+      opacity: 0;
+      transition: opacity 0.2s;
+      pointer-events: none;
+      z-index: 99;
+    }
+    .toast.show { opacity: 1; }
+    .count { color: var(--muted); font-size: 0.82rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Soru Yönetimi</h1>
+    <p>Scarlight kartlarını ara, düzenle, ekle veya sil. Kaydedince otomatik düzeltilir.</p>
+    <div class="top-row">
+      <input id="search" type="search" placeholder="Soru ara…" />
+      <button class="btn" id="btnNew" type="button">+ Yeni soru</button>
+    </div>
+  </header>
+
+  <div class="tabs" id="tabs"></div>
+  <div class="tabs player-tabs" id="playerTabs"></div>
+
+  <main>
+    <div class="list" id="list"></div>
+    <div class="editor" id="editor">
+      <div class="empty">← Soldan bir soru seç<br>veya yeni soru ekle</div>
+    </div>
+  </main>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    const $ = (s) => document.querySelector(s);
+    const listEl = $("#list");
+    const editorEl = $("#editor");
+    const tabsEl = $("#tabs");
+
+    let cards = [], selectedId = null, activeTab = "", activePlayers = "all";
+
+    const CATEGORIES = [
+      { id: "", label: "Tümü" },
+      { id: "neverHaveI", label: "Ben Hiç" },
+      { id: "hardTruth", label: "Hard Doğruluk" },
+      { id: "hardAction", label: "Hard Aksiyon" },
+      { id: "fantasyRole", label: "Fantezi / Rol" },
+      { id: "propTask", label: "Eşya" },
+    ];
+
+    const DECK_LABELS = {
+      neverHaveI: "Ben Hiç",
+      hardTruth: "Hard Doğruluk",
+      hardAction: "Hard Aksiyon",
+      fantasyRole: "Fantezi / Rol",
+      propTask: "Eşya",
+    };
+
+    const TIER_LABELS = { beginning: "Başlangıç", medium: "Orta", hot: "Ateşli" };
+
+    const DECK_DEFAULTS = {
+      neverHaveI: { phase: "boldQuestion", type: "question", durationSeconds: 45, intensity: 3 },
+      hardTruth: { phase: "boldQuestion", type: "question", durationSeconds: 45, intensity: 3 },
+      hardAction: { phase: "timedTask", type: "task", durationSeconds: 90, intensity: 4 },
+      fantasyRole: { phase: "roleDuo", type: "roleDuo", durationSeconds: 120, intensity: 4 },
+      propTask: { phase: "timedTask", type: "task", durationSeconds: 90, intensity: 5, _file: "prop_questions.json" },
+    };
+
+    const DURATION_OPTS = [
+      { label: "30 sn", sec: 30 },
+      { label: "1 dk", sec: 60 },
+      { label: "2 dk", sec: 120 },
+      { label: "5 dk", sec: 300 },
+    ];
+
+    const PLAYER_OPTS = [
+      { id: "2", label: "2 kişi", min: 2, max: 2 },
+      { id: "3", label: "3 kişi", min: 3, max: 3 },
+      { id: "23", label: "2–3 kişi", min: 2, max: 3 },
+    ];
+
+    const PLAYER_FILTERS = [
+      { id: "all", label: "Tümü" },
+      { id: "2", label: "2 kişi" },
+      { id: "3", label: "3 kişi" },
+      { id: "23", label: "2–3 kişi" },
+    ];
+
+    const PLAYER_LABELS = { 2: "2 kişi", 3: "3 kişi", 23: "2–3 kişi" };
+
+    const INSERT_TOKENS = [
+      { label: "Partnere", text: "{partnere} " },
+      { label: "Partnerin", text: "{partnerin} " },
+      { label: "Partneri", text: "{partneri} " },
+      { label: "Partner", text: "{partner} " },
+      { label: "Diğer oyuncu", text: "{diğer oyuncu} " },
+      { label: "Diğer oyuncuya", text: "{diğer oyuncuya} " },
+    ];
+
+    function toast(msg) {
+      const t = $("#toast");
+      t.textContent = msg;
+      t.classList.add("show");
+      setTimeout(() => t.classList.remove("show"), 2200);
+    }
+
+    async function api(path, opts = {}) {
+      const res = await fetch(path, { headers: { "Content-Type": "application/json" }, ...opts });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data.error || "Hata oluştu");
+      return data;
+    }
+
+    function esc(s) {
+      return (s || "").replace(/[&<>"']/g, (c) => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      })[c]);
+    }
+
+    function escAttr(s) { return (s || "").replace(/"/g, "&quot;"); }
+
+    function preview(text) {
+      let r = text || "";
+      [
+        ["{partnerin}", "partnerin"], ["{partnere}", "partnere"], ["{partneri}", "partneri"],
+        ["{partnerle}", "partnerle"], ["{partner}", "partner"],
+        ["{diğer oyuncunun}", "diğer oyuncunun"], ["{diğer oyuncuya}", "diğer oyuncuya"],
+        ["{diğer oyuncuyu}", "diğer oyuncuyu"], ["{diğer oyuncuyla}", "diğer oyuncuyla"],
+        ["{diğer oyuncu}", "diğer oyuncu"], ["{eşya}", "eşya"],
+      ].forEach(([a, b]) => { r = r.split(a).join(b); });
+      r = r.replace(/^\{sıradaki\}\s*,\s*/i, "").replace(/\{[^{}]+\}/g, "");
+      return r.trim() || "—";
+    }
+
+    function cardPlayerScope(card) {
+      const min = Number(card.minPlayers ?? 2);
+      const max = Number(card.maxPlayers ?? 2);
+      if (min >= 3 && max <= 3) return "3";
+      if (max <= 2) return "2";
+      return "23";
+    }
+
+    function playerScope(min, max) {
+      return cardPlayerScope({ minPlayers: min, maxPlayers: max });
+    }
+
+    function filterCards(list) {
+      let out = list;
+      if (activeTab) {
+        out = out.filter((c) => c.deckType === activeTab);
+      }
+      if (activePlayers && activePlayers !== "all") {
+        out = out.filter((c) => cardPlayerScope(c) === activePlayers);
+      }
+      const q = $("#search").value.trim().toLowerCase();
+      if (q) {
+        out = out.filter(
+          (c) =>
+            (c.id || "").toLowerCase().includes(q) ||
+            (c.text || "").toLowerCase().includes(q) ||
+            (c.onYesTask || "").toLowerCase().includes(q) ||
+            (c.title || "").toLowerCase().includes(q)
+        );
+      }
+      return out;
+    }
+
+    function renderTabs() {
+      tabsEl.innerHTML = CATEGORIES.map((c) =>
+        `<button type="button" class="tab${c.id === activeTab ? " active" : ""}" data-id="${c.id}">${c.label}</button>`
+      ).join("");
+      tabsEl.querySelectorAll(".tab").forEach((btn) => {
+        btn.onclick = () => {
+          activeTab = btn.dataset.id;
+          renderTabs();
+          loadCards();
+        };
+      });
+    }
+
+    function renderPlayerTabs() {
+      const el = $("#playerTabs");
+      el.innerHTML = PLAYER_FILTERS.map((p) =>
+        `<button type="button" class="tab${p.id === activePlayers ? " active" : ""}" data-players="${p.id}">${p.label}</button>`
+      ).join("");
+      el.querySelectorAll(".tab").forEach((btn) => {
+        btn.onclick = () => {
+          activePlayers = btn.dataset.players || "all";
+          renderPlayerTabs();
+          loadCards();
+        };
+      });
+    }
+
+    async function loadCards() {
+      const params = new URLSearchParams();
+      if (activeTab) params.set("deckType", activeTab);
+      if (activePlayers && activePlayers !== "all") {
+        params.set("players", activePlayers);
+      }
+      const fetched = await api("/api/cards?" + params.toString());
+      cards = filterCards(fetched);
+      const stats = await api("/api/stats");
+      renderList(stats);
+    }
+
+    function renderList(stats) {
+      const pool = stats.byPlayers || {};
+      const total = activePlayers && activePlayers !== "all"
+        ? (pool[activePlayers] ?? cards.length)
+        : (stats.total || cards.length);
+      const playerHint = activePlayers && activePlayers !== "all"
+        ? ` · ${PLAYER_LABELS[activePlayers] || ""}`
+        : "";
+      if (!cards.length) {
+        listEl.innerHTML = '<div class="empty">Sonuç yok</div>';
+        return;
+      }
+      listEl.innerHTML = `<div class="count" style="padding:10px 16px">${cards.length} / ${total} soru${playerHint}</div>` +
+        cards.map((c) => {
+          const pl = PLAYER_LABELS[playerScope(c.minPlayers ?? 2, c.maxPlayers ?? 2)] || "";
+          return `
+          <div class="item${c.id === selectedId ? " on" : ""}" data-id="${escAttr(c.id)}">
+            <div class="tag">${DECK_LABELS[c.deckType] || c.deckType} · ${TIER_LABELS[c.contentTier] || c.contentTier} · ${pl}</div>
+            <div class="txt">${esc(c.text)}</div>
+          </div>`;
+        }).join("");
+      listEl.querySelectorAll(".item").forEach((el) => {
+        el.onclick = () => selectCard(el.dataset.id);
+      });
+    }
+
+    async function selectCard(id) {
+      selectedId = id;
+      await loadCards();
+      const card = await api("/api/cards/" + encodeURIComponent(id));
+      renderEditor(card, false);
+    }
+
+    function renderEditor(card, isNew) {
+      const c = card || blankCard();
+      const scope = playerScope(c.minPlayers ?? 2, c.maxPlayers ?? 2);
+      const showYes = c.deckType === "neverHaveI";
+      const dur = c.durationSeconds ?? 45;
+
+      editorEl.innerHTML = `
+        <div class="section">
+          <h2>Kategori</h2>
+          <div class="row" id="deckChips">
+            ${CATEGORIES.filter(x => x.id).map((x) =>
+              `<button type="button" class="chip${c.deckType === x.id ? " on" : ""}" data-deck="${x.id}">${x.label}</button>`
+            ).join("")}
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Zorluk & oyuncu</h2>
+          <label>Zorluk</label>
+          <div class="row" id="tierChips" style="margin-bottom:12px">
+            ${Object.entries(TIER_LABELS).map(([k, v]) =>
+              `<button type="button" class="chip${c.contentTier === k ? " on" : ""}" data-tier="${k}">${v}</button>`
+            ).join("")}
+          </div>
+          <label>Kaç kişilik?</label>
+          <div class="row" id="playerChips">
+            ${PLAYER_OPTS.map((p) =>
+              `<button type="button" class="chip${scope === p.id ? " on" : ""}" data-scope="${p.id}">${p.label}</button>`
+            ).join("")}
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Süre</h2>
+          <div class="row" id="durChips">
+            ${DURATION_OPTS.map((d) =>
+              `<button type="button" class="chip${dur === d.sec ? " on" : ""}" data-sec="${d.sec}">${d.label}</button>`
+            ).join("")}
+            <button type="button" class="chip${!DURATION_OPTS.some(d => d.sec === dur) ? " on" : ""}" data-sec="custom">Özel</button>
+          </div>
+          <input type="number" id="f_duration" value="${dur}" min="0" style="margin-top:10px;${DURATION_OPTS.some(d => d.sec === dur) ? "display:none" : ""}" />
+          <p class="hint">Partner için {partner}, {partnere}, {partneri} kullan. 3 kişide {diğer oyuncu}. Süre sayaçta gösterilir.</p>
+        </div>
+
+        <div class="section">
+          <h2>Soru / görev metni</h2>
+          <div class="row" style="margin-bottom:8px">
+            ${INSERT_TOKENS.map((t) =>
+              `<button type="button" class="chip insert" data-ins="${escAttr(t.text)}">${t.label}</button>`
+            ).join("")}
+          </div>
+          <textarea id="f_text" placeholder="Örn: Ben hiç partnerimin kulağına fısıldamadım">${esc(c.text || "")}</textarea>
+          <div class="preview-box"><small>Oyunda böyle görünür</small><div id="pvText"></div></div>
+        </div>
+
+        <div class="section" id="yesSection" style="${showYes ? "" : "display:none"}">
+          <h2>Yaptım görevi (Ben Hiç)</h2>
+          <p class="hint">Oyuncu "Yaptım" derse bu görev uygulanır.</p>
+          <textarea id="f_yes" placeholder="Örn: {partnerin} kulağına fısılda">${esc(c.onYesTask || "")}</textarea>
+          <div class="preview-box"><small>Oyunda böyle görünür</small><div id="pvYes"></div></div>
+        </div>
+
+        <div class="actions">
+          <button class="btn" type="button" id="btnSave">${isNew ? "Ekle" : "Kaydet"}</button>
+          ${isNew ? "" : '<button class="btn danger" type="button" id="btnDelete">Sil</button>'}
+        </div>
+
+        <details>
+          <summary>Gelişmiş ayarlar</summary>
+          <div class="grid2" style="margin-top:10px">
+            <div><label>ID</label><input id="f_id" value="${escAttr(c.id)}" ${isNew ? "" : "readonly"} /></div>
+            <div><label>Dosya</label>
+              <select id="f_file" ${isNew ? "" : "disabled"}>
+                <option value="deck_packs.json" ${c._file !== "prop_questions.json" ? "selected" : ""}>Ana deste</option>
+                <option value="prop_questions.json" ${c._file === "prop_questions.json" ? "selected" : ""}>Eşya deste</option>
+              </select>
+            </div>
+            <div><label>Yoğunluk (1–5)</label><input type="number" id="f_intensity" min="1" max="5" value="${c.intensity ?? 3}" /></div>
+            <div><label>Eşya ID (virgülle)</label><input id="f_props" value="${escAttr((c.requiredPropIds || []).join(", "))}" /></div>
+          </div>
+          <input type="hidden" id="f_phase" value="${escAttr(c.phase)}" />
+          <input type="hidden" id="f_type" value="${escAttr(c.type)}" />
+          <div class="actions">
+            <button class="btn ghost" type="button" id="btnNormalize">Tüm soruları düzelt</button>
+          </div>
+        </details>
+      `;
+
+      wireChips("#deckChips", "deck", (v) => applyDeckDefaults(v));
+      wireChips("#tierChips", "tier");
+      wireChips("#playerChips", "scope");
+      wireDurationChips();
+
+      document.querySelectorAll("[data-ins]").forEach((btn) => {
+        btn.onclick = () => insertAtCursor($("#f_text"), btn.dataset.ins);
+      });
+
+      const upd = () => {
+        $("#pvText").textContent = preview($("#f_text").value);
+        if ($("#f_yes")) $("#pvYes").textContent = preview($("#f_yes").value);
+      };
+      $("#f_text").oninput = upd;
+      $("#f_yes")?.addEventListener("input", upd);
+      upd();
+
+      $("#btnSave").onclick = () => saveCard(isNew);
+      $("#btnDelete")?.addEventListener("click", deleteCard);
+      $("#btnNormalize").onclick = async () => {
+        if (!confirm("Tüm sorular otomatik düzeltilsin mi?")) return;
+        const r = await api("/api/normalize-all", { method: "POST" });
+        toast(`${r.changed} soru düzeltildi`);
+        if (selectedId) selectCard(selectedId);
+        else loadCards();
+      };
+    }
+
+    function wireChips(sel, attr, onPick) {
+      document.querySelectorAll(`${sel} .chip`).forEach((chip) => {
+        chip.onclick = () => {
+          document.querySelectorAll(`${sel} .chip`).forEach((c) => c.classList.remove("on"));
+          chip.classList.add("on");
+          if (onPick) onPick(chip.dataset[attr]);
+        };
+      });
+    }
+
+    function wireDurationChips() {
+      const durInput = $("#f_duration");
+      document.querySelectorAll("#durChips .chip").forEach((chip) => {
+        chip.onclick = () => {
+          document.querySelectorAll("#durChips .chip").forEach((c) => c.classList.remove("on"));
+          chip.classList.add("on");
+          if (chip.dataset.sec === "custom") {
+            durInput.style.display = "";
+          } else {
+            durInput.value = chip.dataset.sec;
+            durInput.style.display = "none";
+          }
+        };
+      });
+    }
+
+    function applyDeckDefaults(deck) {
+      const d = DECK_DEFAULTS[deck] || {};
+      if (d._file && $("#f_file")) $("#f_file").value = d._file;
+      if (d.phase) $("#f_phase").value = d.phase;
+      if (d.type) $("#f_type").value = d.type;
+      if (d.intensity) $("#f_intensity").value = d.intensity;
+      if (d.durationSeconds) {
+        $("#f_duration").value = d.durationSeconds;
+        document.querySelectorAll("#durChips .chip").forEach((c) => {
+          c.classList.toggle("on", c.dataset.sec == d.durationSeconds);
+        });
+        $("#f_duration").style.display = DURATION_OPTS.some(x => x.sec === d.durationSeconds) ? "none" : "";
+      }
+      const yes = $("#yesSection");
+      if (yes) yes.style.display = deck === "neverHaveI" ? "" : "none";
+    }
+
+    function insertAtCursor(el, text) {
+      const start = el.selectionStart, end = el.selectionEnd;
+      const v = el.value;
+      el.value = v.slice(0, start) + text + v.slice(end);
+      el.focus();
+      el.selectionStart = el.selectionEnd = start + text.length;
+      el.dispatchEvent(new Event("input"));
+    }
+
+    function blankCard() {
+      return {
+        id: "",
+        _file: "deck_packs.json",
+        deckType: activeTab || "neverHaveI",
+        contentTier: "beginning",
+        minPlayers: 2,
+        maxPlayers: 2,
+        phase: "boldQuestion",
+        type: "question",
+        text: "",
+        onYesTask: "",
+        durationSeconds: 45,
+        intensity: 3,
+      };
+    }
+
+    function collectForm(isNew) {
+      const deck = document.querySelector("#deckChips .chip.on")?.dataset.deck || "neverHaveI";
+      const tier = document.querySelector("#tierChips .chip.on")?.dataset.tier || "beginning";
+      const scope = document.querySelector("#playerChips .chip.on")?.dataset.scope || "2";
+      const p = PLAYER_OPTS.find((x) => x.id === scope) || PLAYER_OPTS[0];
+      const props = ($("#f_props")?.value || "").trim();
+      const defs = DECK_DEFAULTS[deck] || {};
+
+      return {
+        id: ($("#f_id")?.value || "").trim(),
+        _file: $("#f_file")?.value || defs._file || "deck_packs.json",
+        deckType: deck,
+        contentTier: tier,
+        minPlayers: p.min,
+        maxPlayers: p.max,
+        phase: $("#f_phase")?.value || defs.phase || "boldQuestion",
+        type: $("#f_type")?.value || defs.type || "question",
+        durationSeconds: +($("#f_duration")?.value || 45),
+        intensity: +($("#f_intensity")?.value || 3),
+        text: $("#f_text").value.trim(),
+        onYesTask: deck === "neverHaveI" ? ($("#f_yes")?.value || "").trim() || null : null,
+        requiredPropIds: props ? props.split(",").map((s) => s.trim()).filter(Boolean) : null,
+        title: DECK_LABELS[deck] || null,
+      };
+    }
+
+    async function saveCard(isNew) {
+      const payload = collectForm(isNew);
+      if (!payload.text) return toast("Metin boş olamaz");
+      try {
+        if (isNew) {
+          const created = await api("/api/cards", { method: "POST", body: JSON.stringify(payload) });
+          selectedId = created.id;
+          toast("Eklendi");
+        } else {
+          await api("/api/cards/" + encodeURIComponent(selectedId), {
+            method: "PUT", body: JSON.stringify(payload),
+          });
+          toast("Kaydedildi");
+        }
+        await loadCards();
+        if (selectedId) selectCard(selectedId);
+      } catch (e) {
+        toast(e.message);
+      }
+    }
+
+    async function deleteCard() {
+      if (!confirm("Bu soru kalıcı olarak silinsin mi?")) return;
+      try {
+        await api("/api/cards/" + encodeURIComponent(selectedId), { method: "DELETE" });
+        selectedId = null;
+        editorEl.innerHTML = '<div class="empty">Soru silindi.</div>';
+        toast("Silindi");
+        loadCards();
+      } catch (e) {
+        toast(e.message);
+      }
+    }
+
+    $("#search").addEventListener("input", debounce(loadCards, 200));
+    $("#btnNew").onclick = () => {
+      selectedId = null;
+      renderEditor(blankCard(), true);
+      loadCards();
+    };
+
+    function debounce(fn, ms) {
+      let t;
+      return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };
+    }
+
+    renderTabs();
+    renderPlayerTabs();
+    loadCards();
+  </script>
+</body>
+</html>

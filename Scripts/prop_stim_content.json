@@ -1,0 +1,217 @@
+{
+  "stim_0": {
+    "slug": "ot",
+    "title": "Ot",
+    "prop_category": "psychoStimulant",
+    "nhi_2": [
+      "Ben hiç ot içip partnerimle yakınlaşmadım. (Yaptıysan: {HO} ile 3 dakika göz teması kur, konuşma.)",
+      "Ben hiç ot etkisiyle partnerimin elini hissetmedim. (Yaptıysan: {HO}'nun elini 2 dakika hisset.)",
+      "Ben hiç ot içip partnerimle yavaş hareket etmedim. (Yaptıysan: {HO} ile 3 dakika ağır çekim yakınlaş.)",
+      "Ben hiç ot etkisiyle partnerimin nefesini dinlemedim. (Yaptıysan: {HO}'nun nefesini 2 dakika dinle.)",
+      "Ben hiç ot içip partnerimle dokunuş odaklı oynamadım. (Yaptıysan: {HO}'ya 3 dakika sadece dokun.)"
+    ],
+    "nhi_3": [
+      "Ben hiç ot içip iki kişiyle aynı anda yakınlaşmadım. (Yaptıysan: {HO} ve {ÜO} ile 3 dakika grup yakınlaşma.)",
+      "Ben hiç ot etkisiyle birini diğerinin önünde yönlendirmedim. (Yaptıysan: {HO}'yu yönlendir, {ÜO} izlesin, 3 dakika.)",
+      "Ben hiç ot içip grup halinde dokunuş oyunu oynamadım. (Yaptıysan: {HO} ve {ÜO} ile 3 dakika dokunuş zinciri.)"
+    ],
+    "ht_2": [
+      "Ot etkisiyle yakınlaşmak seni daha mı rahatlatır, daha mı gerer?",
+      "Ot içtikten sonra en çok hangi fantezi aklına gelir?",
+      "Ot etkisiyle partnerine en çok ne söylemek istersin?",
+      "Ot içtikten sonra dokunuşların mı, yoksa sözlerin mi daha etkili olur?",
+      "Ot etkisiyle zaman algın nasıl değişir?"
+    ],
+    "ha_2": [
+      "{AO}, ot etkisiyle {HO}'ya 4 dakika yavaş yaklaşır.",
+      "{AO}, ot etkisiyle {HO}'nun vücudunu 3 dakika keşfeder.",
+      "{AO}, ot etkisiyle {HO}'ya 4 dakika fısıldar.",
+      "{AO}, ot etkisiyle {HO} ile 3 dakika dans eder.",
+      "{AO}, ot etkisiyle {HO}'yu 4 dakika okşar."
+    ],
+    "ha_3": [
+      "{AO}, ot etkisiyle {HO}'yu yönlendirir, {ÜO} izler, 4 dakika.",
+      "{AO}, {HO} ve {ÜO} ile ot etkisiyle 4 dakika grup keşfi yapar.",
+      "{AO}, ot etkisiyle {HO}'ya komut verir, {ÜO} katılır, 4 dakika."
+    ],
+    "fr_2": [
+      "Yavaşlama Modu: {AO} ve {HO} ot etkisiyle 5 dakika ultra yavaş yakınlaşır.",
+      "Keşif Yolculuğu: {AO}, ot etkisiyle {HO}'yu 5 dakika yeni baştan keşfeder.",
+      "Fısıltı Oyunu: {AO} ve {HO} ot etkisiyle 5 dakika sadece fısıldayarak oynar.",
+      "Dokunuş Dünyası: {AO}, ot etkisiyle {HO}'yu 5 dakika sadece dokunarak yükseltir.",
+      "Zaman Durdurma: {AO} ve {HO} ot etkisiyle 5 dakika zamanı unutur."
+    ]
+  },
+  "stim_1": {
+    "slug": "kokain",
+    "title": "Kokain",
+    "prop_category": "psychoStimulant",
+    "nhi_2": [
+      "Ben hiç kokain etkisiyle partnerimle hızlı yakınlaşmadım. (Yaptıysan: {HO} ile 2 dakika hızlı tempo.)",
+      "Ben hiç kokain çektikten sonra partnerimi zorlamadım. (Yaptıysan: {HO}'yu 2 dakika sertçe zorla.)",
+      "Ben hiç kokain etkisiyle partnerimle kesintisiz oynamadım. (Yaptıysan: {HO} ile 3 dakika durmadan devam et.)",
+      "Ben hiç kokain çektikten sonra partnerimi inletmedim. (Yaptıysan: {HO}'yu inlet, 3 dakika.)",
+      "Ben hiç kokain etkisiyle partnerimle sınır zorlamadım. (Yaptıysan: {HO} ile 3 dakika sınırda oyna.)"
+    ],
+    "nhi_3": [
+      "Ben hiç kokain etkisiyle iki kişiyi aynı anda zorlamadım. (Yaptıysan: {HO} ve {ÜO}'yu 3 dakika zorla.)",
+      "Ben hiç kokain çektikten sonra birini diğerinin önünde inletmedim. (Yaptıysan: {HO}'yu inlet, {ÜO} izlesin, 3 dakika.)",
+      "Ben hiç kokain etkisiyle grup halinde hızlı oynamadım. (Yaptıysan: {HO} ve {ÜO} ile 3 dakika hızlı grup.)"
+    ],
+    "ht_2": [
+      "Kokain etkisiyle en çok hangi his güçlenir?",
+      "Kokain çektikten sonra partnerine karşı daha mı dominant olursun?",
+      "Kokain etkisiyle zamanı unutmak mı, hızlandırmak mı istersin?",
+      "Kokain ile birlikte en çok hangi fanteziyi gerçekleştirmek istersin?",
+      "Kokain etkisiyle sesin mi, yoksa hareketlerin mi daha kontrolsüz olur?"
+    ],
+    "ha_2": [
+      "{AO}, kokain etkisiyle {HO}'yu 2 dakika hızlı zorlar.",
+      "{AO}, kokain etkisiyle {HO}'yu 3 dakika durmadan yönlendirir.",
+      "{AO}, kokain etkisiyle {HO}'yu 2 dakika sertçe penetre eder.",
+      "{AO}, kokain etkisiyle {HO}'yu 3 dakika inletir.",
+      "{AO}, kokain etkisiyle {HO} ile 2 dakika sınır zorlar."
+    ],
+    "ha_3": [
+      "{AO}, kokain etkisiyle {HO} ve {ÜO}'yu 3 dakika zorlar.",
+      "{AO}, kokain etkisiyle {HO}'yu zorlar, {ÜO} katılır, 3 dakika.",
+      "{AO}, {HO} ve {ÜO} ile kokain etkisiyle 3 dakika kesintisiz grup oyunu yapar."
+    ],
+    "fr_2": [
+      "Hız Tutkusu: {AO}, kokain etkisiyle {HO}'yu 4 dakika hızlı tempo ile zorlar.",
+      "Kesintisiz Oyun: {AO}, kokain etkisiyle {HO} ile 4 dakika durmadan devam eder.",
+      "Sınır Zorlama: {AO}, kokain etkisiyle {HO}'yu 4 dakika sınırda tutar.",
+      "Ses Çıkarma: {AO}, kokain etkisiyle {HO}'yu 4 dakika inletir.",
+      "Kontrol Kaybı: {AO}, kokain etkisiyle {HO}'ya 4 dakika kontrolü bırakır."
+    ]
+  },
+  "stim_2": {
+    "slug": "lsd",
+    "title": "LSD",
+    "prop_category": "psychoStimulant",
+    "nhi_2": [
+      "Ben hiç LSD etkisiyle partnerimle renkli yakınlaşmadım. (Yaptıysan: {HO} ile 5 dakika renkli ışıkta oyna.)",
+      "Ben hiç LSD etkisiyle partnerimin vücudunda desenler görmedim. (Yaptıysan: {HO}'nun vücuduna 4 dakika desen çiz.)",
+      "Ben hiç LSD etkisiyle partnerimle derin göz teması kurmadım. (Yaptıysan: {HO} ile 5 dakika göz teması.)",
+      "Ben hiç LSD etkisiyle partnerimin sesini renkli hissetmedim. (Yaptıysan: {HO}'ya 4 dakika sesli yaklaş.)",
+      "Ben hiç LSD etkisiyle partnerimle zamanı unutmadım. (Yaptıysan: {HO} ile 5 dakika zamansız oyna.)"
+    ],
+    "nhi_3": [
+      "Ben hiç LSD etkisiyle iki kişiyle aynı anda renkli yakınlaşmadım. (Yaptıysan: {HO} ve {ÜO} ile 5 dakika renkli grup.)",
+      "Ben hiç LSD etkisiyle birini diğerinin önünde desenli yönlendirmedim. (Yaptıysan: {HO}'yu yönlendir, {ÜO} izlesin, 5 dakika.)",
+      "Ben hiç LSD etkisiyle grup halinde derin bağlantı kurmadım. (Yaptıysan: {HO} ve {ÜO} ile 5 dakika derin grup.)"
+    ],
+    "ht_2": [
+      "LSD etkisiyle en çok hangi duyu keskinleşir?",
+      "LSD ile partnerinin vücudunu nasıl görürsün?",
+      "LSD etkisiyle zaman algın nasıl değişir?",
+      "LSD ile birlikte en çok hangi fanteziyi gerçekleştirmek istersin?",
+      "LSD etkisiyle dokunuşlarında ne gibi farklar hissederdin?"
+    ],
+    "ha_2": [
+      "{AO}, LSD etkisiyle {HO}'nun vücudunda 5 dakika desen çizer.",
+      "{AO}, LSD etkisiyle {HO} ile 5 dakika derin göz teması kurar.",
+      "{AO}, LSD etkisiyle {HO}'yu 5 dakika renkli ışıkta yönlendirir.",
+      "{AO}, LSD etkisiyle {HO}'ya 5 dakika sesli yaklaşır.",
+      "{AO}, LSD etkisiyle {HO} ile 5 dakika zamansız oynar."
+    ],
+    "ha_3": [
+      "{AO}, LSD etkisiyle {HO} ve {ÜO}'yu 5 dakika renkli ışıkta yönlendirir.",
+      "{AO}, LSD etkisiyle {HO}'yu desenli yönlendirir, {ÜO} katılır, 5 dakika.",
+      "{AO}, {HO} ve {ÜO} ile LSD etkisiyle 5 dakika zamansız grup oyunu yapar."
+    ],
+    "fr_2": [
+      "Renkli Dünya: {AO}, LSD etkisiyle {HO}'yu 6 dakika renkli ışıkta keşfeder.",
+      "Desenler: {AO}, LSD etkisiyle {HO}'nun vücuduna 6 dakika desen çizer.",
+      "Derin Bakış: {AO} ve {HO} LSD etkisiyle 6 dakika göz teması kurar.",
+      "Ses Dalgaları: {AO}, LSD etkisiyle {HO}'ya 6 dakika sesli yaklaşır.",
+      "Zamansız Aşk: {AO} ve {HO} LSD etkisiyle 6 dakika zamanı unutur."
+    ]
+  },
+  "stim_3": {
+    "slug": "azdirici",
+    "title": "Azdırıcı",
+    "prop_category": "psychoStimulant",
+    "nhi_2": [
+      "Ben hiç azdırıcı kullanıp partnerimle ateşli yakınlaşmadım. (Yaptıysan: {HO} ile 3 dakika yoğun yakınlaşma.)",
+      "Ben hiç azdırıcı etkisiyle partnerimi bekletmedim. (Yaptıysan: {HO}'yu 3 dakika beklet.)",
+      "Ben hiç azdırıcı kullanıp partnerimi tahrik etmedim. (Yaptıysan: {HO}'yu 3 dakika tahrik et.)",
+      "Ben hiç azdırıcı etkisiyle partnerimle sınırsız oynamadım. (Yaptıysan: {HO} ile 4 dakika sınır tanıma.)",
+      "Ben hiç azdırıcı kullanıp partnerimi inletmedim. (Yaptıysan: {HO}'yu inlet, 3 dakika.)"
+    ],
+    "nhi_3": [
+      "Ben hiç azdırıcı kullanıp iki kişiyi aynı anda tahrik etmedim. (Yaptıysan: {HO} ve {ÜO}'yu 3 dakika tahrik et.)",
+      "Ben hiç azdırıcı etkisiyle birini diğerinin önünde inletmedim. (Yaptıysan: {HO}'yu inlet, {ÜO} izlesin, 3 dakika.)",
+      "Ben hiç azdırıcı kullanıp grup halinde sınırsız oynamadım. (Yaptıysan: {HO} ve {ÜO} ile 4 dakika sınırsız grup.)"
+    ],
+    "ht_2": [
+      "Azdırıcı etkisiyle en çok hangi his güçlenir?",
+      "Azdırıcı kullandıktan sonra partnerine karşı daha mı talepkar olursun?",
+      "Azdırıcı etkisiyle beklemek mi, hemen yaklaşmak mı istersin?",
+      "Azdırıcı ile birlikte en çok hangi fanteziyi gerçekleştirmek istersin?",
+      "Azdırıcı etkisiyle kontrolünü kaybetmek mi, kontrol almak mı istersin?"
+    ],
+    "ha_2": [
+      "{AO}, azdırıcı etkisiyle {HO} ile 3 dakika yoğun yakınlaşır.",
+      "{AO}, azdırıcı etkisiyle {HO}'yu 3 dakika bekletir.",
+      "{AO}, azdırıcı etkisiyle {HO}'yu 3 dakika tahrik eder.",
+      "{AO}, azdırıcı etkisiyle {HO} ile 4 dakika sınır tanımaz.",
+      "{AO}, azdırıcı etkisiyle {HO}'yu 3 dakika inletir."
+    ],
+    "ha_3": [
+      "{AO}, azdırıcı etkisiyle {HO} ve {ÜO}'yu 3 dakika tahrik eder.",
+      "{AO}, azdırıcı etkisiyle {HO}'yu inletir, {ÜO} izler, 3 dakika.",
+      "{AO}, {HO} ve {ÜO} ile azdırıcı etkisiyle 4 dakika sınırsız grup oyunu yapar."
+    ],
+    "fr_2": [
+      "Ateşli Gece: {AO}, azdırıcı etkisiyle {HO} ile 4 dakika yoğun yakınlaşır.",
+      "Bekletme Oyunu: {AO}, azdırıcı etkisiyle {HO}'yu 4 dakika bekletir.",
+      "Tahrik Çemberi: {AO}, azdırıcı etkisiyle {HO}'yu 4 dakika tahrik eder.",
+      "Sınırsız Oyun: {AO}, azdırıcı etkisiyle {HO} ile 4 dakika sınır tanımaz.",
+      "İnletme Seansı: {AO}, azdırıcı etkisiyle {HO}'yu 4 dakika inletir."
+    ]
+  },
+  "stim_4": {
+    "slug": "ex",
+    "title": "Ex",
+    "prop_category": "psychoStimulant",
+    "nhi_2": [
+      "Ben hiç ex kullanıp partnerimle dans ederek yakınlaşmadım. (Yaptıysan: {HO} ile 3 dakika dans ederek yakınlaş.)",
+      "Ben hiç ex etkisiyle partnerimle dokunarak bağlanmadım. (Yaptıysan: {HO} ile 3 dakika dokunarak bağlan.)",
+      "Ben hiç ex kullanıp partnerimle müzikle oynamadım. (Yaptıysan: {HO} ile 3 dakika müzik eşliğinde oyna.)",
+      "Ben hiç ex etkisiyle partnerimle sevgi dolu yakınlaşmadım. (Yaptıysan: {HO} ile 3 dakika sevgi dolu oyna.)",
+      "Ben hiç ex kullanıp partnerimle enerjik oynamadım. (Yaptıysan: {HO} ile 3 dakika enerjik oyna.)"
+    ],
+    "nhi_3": [
+      "Ben hiç ex kullanıp iki kişiyle aynı anda dans ederek yakınlaşmadım. (Yaptıysan: {HO} ve {ÜO} ile 3 dakika grup dansı.)",
+      "Ben hiç ex etkisiyle birini diğerinin önünde sevgi dolu yönlendirmedim. (Yaptıysan: {HO}'yu yönlendir, {ÜO} izlesin, 3 dakika.)",
+      "Ben hiç ex kullanıp grup halinde müzikle oynamadım. (Yaptıysan: {HO} ve {ÜO} ile 3 dakika müzikli grup.)"
+    ],
+    "ht_2": [
+      "Ex etkisiyle en çok hangi duygu güçlenir?",
+      "Ex kullandıktan sonra partnerine karşı daha mı sevgi dolu olursun?",
+      "Ex etkisiyle dans etmek mi, dokunmak mı daha hoşuna gider?",
+      "Ex ile birlikte en çok hangi fanteziyi gerçekleştirmek istersin?",
+      "Ex etkisiyle müzik seni nasıl etkiler?"
+    ],
+    "ha_2": [
+      "{AO}, ex etkisiyle {HO} ile 3 dakika dans ederek yakınlaşır.",
+      "{AO}, ex etkisiyle {HO} ile 3 dakika dokunarak bağlanır.",
+      "{AO}, ex etkisiyle {HO} ile 3 dakika müzik eşliğinde oynar.",
+      "{AO}, ex etkisiyle {HO} ile 3 dakika sevgi dolu yakınlaşır.",
+      "{AO}, ex etkisiyle {HO} ile 3 dakika enerjik oynar."
+    ],
+    "ha_3": [
+      "{AO}, ex etkisiyle {HO} ve {ÜO} ile 3 dakika grup dansı yapar.",
+      "{AO}, ex etkisiyle {HO}'yu sevgi dolu yönlendirir, {ÜO} katılır, 3 dakika.",
+      "{AO}, {HO} ve {ÜO} ile ex etkisiyle 3 dakika müzikli grup oyunu yapar."
+    ],
+    "fr_2": [
+      "Dans Eden Aşıklar: {AO} ve {HO} ex etkisiyle 4 dakika dans ederek yakınlaşır.",
+      "Dokunuş Bağı: {AO} ve {HO} ex etkisiyle 4 dakika dokunarak bağlanır.",
+      "Müzik Ritmi: {AO} ve {HO} ex etkisiyle 4 dakika müzik eşliğinde oynar.",
+      "Sevgi Dolu Gece: {AO} ve {HO} ex etkisiyle 4 dakika sevgi dolu yakınlaşır.",
+      "Enerji Patlaması: {AO} ve {HO} ex etkisiyle 4 dakika enerjik oynar."
+    ]
+  }
+}

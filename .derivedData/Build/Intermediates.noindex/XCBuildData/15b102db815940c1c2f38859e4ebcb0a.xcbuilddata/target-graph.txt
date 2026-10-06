@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'ScarlightTests' in project 'Scarlight'
+➜ Explicit dependency on target 'Scarlight' in project 'Scarlight'
+Target 'Scarlight' in project 'Scarlight' (no dependencies)

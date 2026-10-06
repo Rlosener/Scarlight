@@ -1,0 +1,24 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/ConsentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Bu uygulama yalnızca 18 yaş üzeri kullanıcılar için tasarlanmıştır. Oyundaki her görev karşılıklı rızaya bağlıdır. Her oyuncu istediği an pas geçebilir veya oyunu durdurabilir.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Her oyuncu istediği an pas geçebilir.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 24
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,56 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Design/AppComponents.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Timed. Bold. Unpredictable.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Önizleme",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 534
+        }
+      },
+      {
+        "comment": "",
+        "key": "Yaptıysan: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 550
+        }
+      },
+      {
+        "comment": "",
+        "key": "Oyuncu Sayısı",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 567
+        }
+      },
+      {
+        "comment": "",
+        "key": "Oyuncu Sayısı",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 571
+        }
+      },
+      {
+        "comment": "",
+        "key": "Oyuncu filtresi",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 591
+        }
+      }
+    ]
+  },
+  "version": 1
+}

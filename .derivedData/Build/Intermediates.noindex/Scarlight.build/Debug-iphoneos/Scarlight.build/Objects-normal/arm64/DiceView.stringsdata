@@ -1,0 +1,104 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/DiceView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "KADER TURU",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "POZİSYON TURU",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kader belirleniyor...",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 162
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pozisyon seçiliyor...",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 162
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pozisyon · %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 199
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld sn",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 207
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 230
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 238
+        }
+      },
+      {
+        "comment": "",
+        "key": "Wild — Kategori Seç",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 275
+        }
+      },
+      {
+        "comment": "",
+        "key": "İlerleme (K/P):",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 313
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sıradaki: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 336
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld/%lld · %lld/%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 328
+        }
+      }
+    ]
+  },
+  "version": 1
+}

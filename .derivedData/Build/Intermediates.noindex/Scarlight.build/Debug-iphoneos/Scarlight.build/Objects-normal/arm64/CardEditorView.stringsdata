@@ -1,0 +1,224 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/CardEditorView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Bu kartı kalıcı olarak sil?",
+        "location": {
+          "startingColumn": 13,
+          "startingLine": 98
+        }
+      },
+      {
+        "comment": "",
+        "key": "Silinemedi",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kart Editörü",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Bu filtrede kart yok.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sil",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 105
+        }
+      },
+      {
+        "comment": "",
+        "key": "İptal",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tamam",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kart ara",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 147
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld kart",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 203
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tümü",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tümü",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 186
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 234
+        }
+      },
+      {
+        "comment": "",
+        "key": "Yoğunluk: %lld • %llds • %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 285
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 274
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 278
+        }
+      },
+      {
+        "comment": "",
+        "key": "Özel",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 279
+        }
+      },
+      {
+        "comment": "",
+        "key": "Yeni Kart",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 490
+        }
+      },
+      {
+        "comment": "",
+        "key": "İpuçları: {partner}, {partnere}, {partneri}, {diğer oyuncu}, {eşya}",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 446
+        }
+      },
+      {
+        "comment": "",
+        "key": "Başlık",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 341
+        }
+      },
+      {
+        "comment": "",
+        "key": "Deste",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 346
+        }
+      },
+      {
+        "comment": "",
+        "key": "Seviye",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 370
+        }
+      },
+      {
+        "comment": "",
+        "key": "Faz",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 381
+        }
+      },
+      {
+        "comment": "",
+        "key": "Metinde {item} eşya placeholder'ı kullan",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 401
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kategori",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 409
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 419
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 424
+        }
+      },
+      {
+        "comment": "",
+        "key": "İptal",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 494
+        }
+      }
+    ]
+  },
+  "version": 1
+}

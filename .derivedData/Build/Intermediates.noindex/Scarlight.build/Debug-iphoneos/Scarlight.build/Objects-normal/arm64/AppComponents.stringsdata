@@ -1,0 +1,48 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Design/AppComponents.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Önizleme",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 299
+        }
+      },
+      {
+        "comment": "",
+        "key": "Yaptıysan: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 315
+        }
+      },
+      {
+        "comment": "",
+        "key": "Oyuncu Sayısı",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 332
+        }
+      },
+      {
+        "comment": "",
+        "key": "Oyuncu Sayısı",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 336
+        }
+      },
+      {
+        "comment": "",
+        "key": "Oyuncu filtresi",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 355
+        }
+      }
+    ]
+  },
+  "version": 1
+}

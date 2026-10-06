@@ -1,0 +1,128 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/GameHistoryView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Geçmiş",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 62
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tamam",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "Henüz kayıtlı oturum yok.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "Geçmiş İçe Aktar",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "Geçmiş Yedeği",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 192
+        }
+      },
+      {
+        "comment": "",
+        "key": "Oturum kayıtlarını ayrı JSON olarak taşı.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 195
+        }
+      },
+      {
+        "comment": "",
+        "key": "Dışa Aktar",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 204
+        }
+      },
+      {
+        "comment": "",
+        "key": "İçe Aktar",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 214
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hazır yedeği paylaş",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 226
+        }
+      },
+      {
+        "comment": "",
+        "key": "Oturum Detayı",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 265
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kapat",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 269
+        }
+      },
+      {
+        "comment": "",
+        "key": "Aynı Kurulumla Yeniden Başlat",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 307
+        }
+      },
+      {
+        "comment": "",
+        "key": "OYUNCU İSTATİSTİKLERİ",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 362
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld tur",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 373
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld joker",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 376
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,96 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/PlayerSetupView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Oyuncu Ekle",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "PARTNER ÇİFTİ",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 172
+        }
+      },
+      {
+        "comment": "",
+        "key": "3 kişide kartlardaki partner kime denk gelir? Üçüncü kişi otomatik “diğer oyuncu” olur.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 177
+        }
+      },
+      {
+        "comment": "",
+        "key": "Yeni Oyuncu",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 234
+        }
+      },
+      {
+        "comment": "",
+        "key": "İsim",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 240
+        }
+      },
+      {
+        "comment": "",
+        "key": "İsim gir",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 244
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cinsiyet",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 254
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cinsiyet",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 258
+        }
+      },
+      {
+        "comment": "",
+        "key": "Rol",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 268
+        }
+      },
+      {
+        "comment": "",
+        "key": "Rol",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 272
+        }
+      }
+    ]
+  },
+  "version": 1
+}

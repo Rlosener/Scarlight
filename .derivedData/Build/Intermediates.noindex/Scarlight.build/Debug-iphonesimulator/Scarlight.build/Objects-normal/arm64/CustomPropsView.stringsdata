@@ -1,0 +1,40 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/CustomPropsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Kendi eşyalarını ekle; eşya seçiminde ve hazırlık listesinde görünür.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "YENİ EŞYA",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "Eşya adı",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 71
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kategori",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 77
+        }
+      }
+    ]
+  },
+  "version": 1
+}

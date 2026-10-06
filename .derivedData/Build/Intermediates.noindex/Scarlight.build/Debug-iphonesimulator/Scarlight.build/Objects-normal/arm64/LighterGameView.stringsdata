@@ -1,0 +1,96 @@
+{
+  "source": "/Users/efecanakbulut/Desktop/Projeler/Scarlight/Scarlight/Views/LighterGameView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Kapat",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "NASIL OYNANIR?",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 226
+        }
+      },
+      {
+        "comment": "",
+        "key": "Soru yaz veya öner, birine ver. O kişi soruyu açar, cevaplar — çakmak ona geçer.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 231
+        }
+      },
+      {
+        "comment": "",
+        "key": "Çakmağı tutan",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 253
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kime soruyorsun?",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 281
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sorunu yaz",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 288
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sorunu buraya yaz…",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 293
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ bir soru aldı",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 318
+        }
+      },
+      {
+        "comment": "",
+        "key": "Soru henüz açılmadı",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 323
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ cevaplıyor",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 373
+        }
+      },
+      {
+        "comment": "",
+        "key": "SORU",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 350
+        }
+      }
+    ]
+  },
+  "version": 1
+}
